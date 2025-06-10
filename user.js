@@ -84,8 +84,8 @@ user_pref("toolkit.telemetry.coverage.opt-out", true);         // Opt out of cov
 user_pref("toolkit.coverage.endpoint.base", "");               // Remove coverage data URL
 user_pref("beacon.enabled", false);                           // Disable Beacon API (used for tracking)
 user_pref("geo.enabled", false);                              // Geo
-user_pref("geo.provider.network.url", "");
-user_pref("geo.wifi.uri", false);
+user_pref("geo.provider.network.url", "");                    // Geo
+user_pref("geo.wifi.uri", false);                             // Geo
 
 // ════════════════════════════════════════════════
 // 🔒 FINGERPRINTING PROTECTION
